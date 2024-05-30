@@ -180,7 +180,7 @@ const CleaningServiceBooking = () => {
       <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
         <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">Book a Cleaning Service</h1>
         <p className={`mb-4 text-center ${errorMessage ? 'text-red-500' : 'text-gray-700'}`}>
-          {errorMessage || 'You can select one type of cleaning and extra tasks'}
+          {errorMessage || 'You can select one type of cleaning and more than one extra task.'}
         </p>
         <div className="mb-6">
           <h2 className="text-2xl font-semibold mb-4 text-blue-500">Cleaning Types</h2>
