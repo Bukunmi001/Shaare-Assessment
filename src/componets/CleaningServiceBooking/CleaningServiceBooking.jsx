@@ -156,7 +156,7 @@ const CleaningServiceBooking = () => {
     setSelectedCleaning(updatedCleaning);
 
     if (updatedCleaning.length >= 1) {
-      setErrorMessage('Notice!! You can select only one type of cleaning and extra tasks');
+      setErrorMessage('Notice!! You can select only one type of cleaning');
     } else {
       setErrorMessage('');
     }
